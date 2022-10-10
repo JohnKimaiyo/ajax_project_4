@@ -65,7 +65,7 @@ router.put('/employee/:id', (request, response) => {
     response.json({msg: 'PUT Reqeustis successfull'})
 });
 
-// delet request
+// delete request
 Router.delete('/employees/;id',(request,response)=>{
     let empId = request.params.id;
     employees = employees.filter((employee)=>{
